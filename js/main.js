@@ -31,16 +31,16 @@ const goToContact = document.querySelector('#contact');
 
 goToAbout.addEventListener('click', function () {
   gsap.to(window, .7, {
-    scrollTo: 500
+    scrollTo: 1050
   });
 });
 goToSkills.addEventListener('click', function () {
   gsap.to(window, .7, {
-    scrollTo: 1050
+    scrollTo: 2000
   });
 });
 goToContact.addEventListener('click', function () {
   gsap.to(window, .7, {
-    scrollTo: 1050
+    scrollTo: 2200
   });
 });
